@@ -12,7 +12,7 @@ SCRIPT WILL OUTPUT THE VM PUBLIC IPS AND TH PRIVATE KEY FOR SSH
 HOW TO USE:
 
 module "${enter-name-of-module}" {
-	source = ""
+	source = "https://github.com/ayomodu/Terraform-scripts-linuxvm-azure.git"
 	location    	 = "${enter-resource-location}"	
 	rg-name	    	 = "${enter-resourcegroup-name}" #uses "new-rg" by default
 	vnet-cidr   	 = "${enter-vnet-cidr}" #uses 10.0.0.0/16 by default (ensure to use a large enough prefix i.e /8 or /16 as each subnet is programmed to take a /24 prefix)

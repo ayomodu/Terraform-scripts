@@ -19,7 +19,7 @@ module "${enter-name-of-module}" {
 	subnet-count	 =  enter number # deploys 1 subnet by default
 	sub-name    	 = "${enter-subnet-name}" #e.g "dev", "prod" or whatever custom name you prefer
 	vm-name     	 = "${enter-vm-name}" #this variable takes a string value
-	vm-count    	 =  enter number
+	vm-count    	 =  enter number #deploys 1 VM by default
 	vm-size	    	 = "${enter-vm-size}"
 	username    	 = "${enter-vm-username}" #default is "new-user"
 	storage-acc-type = "${enter-storage-type}" #uses Standard_LRS by default

@@ -32,13 +32,13 @@ module "${enter-name-of-module}" {
 
 output "pub-ip" {
     value = module.vm.VM_IPs
-  # will output public ips for connecting to vms
+    #will output public ips for connecting to vms
 }
 
 
 
 output "privkey" {
     value = module.vm.tls_private_key
-    # will output the private key created for the ssh connection 
+    #will output the private key created for the ssh connection 
   
 }
